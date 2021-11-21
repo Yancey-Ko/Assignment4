@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import {Link} from 'react-router-dom';
-//Displays profile Name and when the member signed up.
+import AccountBalance from './AccountBalance';
+//Displays profile and balance
 class UserProfile extends Component {
   render() {
     return (
@@ -9,6 +10,7 @@ class UserProfile extends Component {
 
           <div>Username: {this.props.userName}</div>
           <div>Member Since: {this.props.memberSince}</div>
+		  <AccountBalance accountBalance={this.props.accountBalance}/>
 		  <Link to="/">Return to Home</Link>
         </div>
 		
