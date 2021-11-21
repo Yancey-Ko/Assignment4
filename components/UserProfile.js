@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {Link} from 'react-router-dom';
-
+//Displays profile Name and when the member signed up.
 class UserProfile extends Component {
   render() {
     return (
