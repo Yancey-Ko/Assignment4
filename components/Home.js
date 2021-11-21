@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import AccountBalance from './AccountBalance';
 import {Link} from 'react-router-dom';
-
+//Homepage with links to other pages and shows account balance.
 class Home extends Component {
   render() {
     return (
